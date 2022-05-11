@@ -1,33 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://cs-3213-fse.github.io/cs3213-fse/index.html</loc>
-         <lastmod>2022-01-05</lastmod>
+         <loc>https://cs3213-fse.github.io/cs3213-fse/index.html</loc>
+         <lastmod>2022-05-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://cs-3213-fse.github.io/cs3213-fse/about.html</loc>
-         <lastmod>2022-01-05</lastmod>
+         <loc>https://cs3213-fse.github.io/cs3213-fse/about.html</loc>
+         <lastmod>2022-05-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://cs-3213-fse.github.io/cs3213-fse/assignment_overview.html</loc>
-         <lastmod>2022-01-05</lastmod>
+         <loc>https://cs3213-fse.github.io/cs3213-fse/assignment_overview.html</loc>
+         <lastmod>2022-05-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://cs-3213-fse.github.io/cs3213-fse/lec_0.html</loc>
-         <lastmod>2022-01-05</lastmod>
+         <loc>https://cs3213-fse.github.io/cs3213-fse/lecture.html</loc>
+         <lastmod>2022-05-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://cs-3213-fse.github.io/cs3213-fse/schedule.html</loc>
-         <lastmod>2022-01-05</lastmod>
+         <loc>https://cs3213-fse.github.io/cs3213-fse/lecture_p.html</loc>
+         <lastmod>2022-05-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://cs-3213-fse.github.io/cs3213-fse/tutors.html</loc>
-         <lastmod>2022-01-05</lastmod>
+         <loc>https://cs3213-fse.github.io/cs3213-fse/schedule.html</loc>
+         <lastmod>2022-05-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cs3213-fse.github.io/cs3213-fse/tutors.html</loc>
+         <lastmod>2022-05-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cs3213-fse.github.io/cs3213-fse/project/examples.html</loc>
+         <lastmod>2022-05-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cs3213-fse.github.io/cs3213-fse/project/intro.html</loc>
+         <lastmod>2022-05-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cs3213-fse.github.io/cs3213-fse/project/readings.html</loc>
+         <lastmod>2022-05-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

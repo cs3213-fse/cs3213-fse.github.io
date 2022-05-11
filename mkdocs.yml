@@ -3,18 +3,18 @@ nav:
   - General: 
     - About CS3213: 'about.md'
     #- Schedule: 'schedule.md'
-    - Teaching Team: 'tutors.md'
+    # - Teaching Team: 'tutors.md'
   - Lecture:
     - Lecture : 'lecture.md'
-    #- Lecture (Project): 'lecture_p.md'
-  - Assignments: 
-    - Overview: 'assignment_overview.md'
-    - Week 1: 'assign_week_1.md'
+    # - Lecture (Project): 'lecture_p.md'
+  # - Assignments: 
+  #   - Overview: 'assignment_overview.md'
+  #   - Week 1: 'assign_week_1.md'
   - Project:
-    - Introduction: ''
-    - Readings: ''
-    - Examples: ''
-    - Postman: ''
+    - Introduction: 'project/intro.md'
+    - Readings: 'project/readings.md'
+    - Examples: 'project/examples.md'
+    - Postman: 'project/readings.md'
 
 theme: 
   name: material
