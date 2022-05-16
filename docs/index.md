@@ -10,7 +10,7 @@ This module will provide the students with foundational knowledge and understand
 
 ## Material Uploaded
 
-All materials on CS3213 (AY 2021/2022) have been uploaded, if you are interested in the resource, please check [Lecture](lecture.md) and [Project](project.md).
+All materials on CS3213 (AY 2021/2022) have been uploaded, if you are interested in the resource, please check [Lecture](lecture.md) and [Project](lecture_p.md).
 
 ## Collaboration
 
