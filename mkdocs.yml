@@ -1,13 +1,13 @@
 nav:
   - Home: 'index.md'
-  - General: 
+  - General:
     - About CS3213: 'about.md'
     #- Schedule: 'schedule.md'
     # - Teaching Team: 'tutors.md'
-  - Lecture:
+  - Lecture Material:
     - Lecture : 'lecture.md'
-    # - Lecture (Project): 'lecture_p.md'
-  # - Assignments: 
+    - Lecture (Project): 'lecture_p.md'
+  # - Assignments:
   #   - Overview: 'assignment_overview.md'
   #   - Week 1: 'assign_week_1.md'
   - Project:
@@ -16,7 +16,7 @@ nav:
     - Examples: 'project/examples.md'
     - Postman: 'project/readings.md'
 
-theme: 
+theme:
   name: material
   palette:
     primary: blue grey
