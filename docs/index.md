@@ -14,7 +14,7 @@ This module provides the students with foundational knowledge and understanding 
 
 ## Material Uploaded
 
-All lecture materials for CS3213 (AY 2021/2022) have been uploaded; if you are interested in the resource, please check [Lecture](lecture.md) and [Lecture (Project)](lecture_p.md). Furthermore, we provide material for our semester-long project: an brief [overview](project/intro.md), the [workflow](project/workflow.md) through the framework, and the current [project topics](project/topics.md) that are available to the CS3213 students.
+All lecture materials for CS3213 (AY 2021/2022) have been uploaded; if you are interested in the resource, please check [Lecture](lecture.md) and [Lecture (Project)](lecture_p.md). Furthermore, we provide material for our semester-long project: a brief [overview](project/intro.md), the [workflow](project/workflow.md) through the framework, and the current [project topics](project/topics.md) that are available to the CS3213 students.
 
 ## Assessment Weightage
 
