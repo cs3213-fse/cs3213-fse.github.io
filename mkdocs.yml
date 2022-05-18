@@ -1,7 +1,7 @@
 nav:
   - Home: 'index.md'
-  - General:
-    - About CS3213: 'about.md'
+  # - General:
+    #- About CS3213: 'about.md'
     #- Schedule: 'schedule.md'
     # - Teaching Team: 'tutors.md'
   - Lecture Material:
@@ -17,6 +17,7 @@ nav:
     #- Readings: 'project/readings.md'
     #- Examples: 'project/examples.md'
     #- Postman: 'project/readings.md'
+  - Collaboration: 'collaboration.md'
 
 theme:
   name: material
