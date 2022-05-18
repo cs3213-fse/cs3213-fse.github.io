@@ -11,10 +11,12 @@ nav:
   #   - Overview: 'assignment_overview.md'
   #   - Week 1: 'assign_week_1.md'
   - Project:
-    - Introduction: 'project/intro.md'
-    - Readings: 'project/readings.md'
-    - Examples: 'project/examples.md'
-    - Postman: 'project/readings.md'
+    - Overview: 'project/intro.md'
+    - Workflow: 'project/workflow.md'
+    #- Topics: 'project/topics.md'
+    #- Readings: 'project/readings.md'
+    #- Examples: 'project/examples.md'
+    #- Postman: 'project/readings.md'
 
 theme:
   name: material

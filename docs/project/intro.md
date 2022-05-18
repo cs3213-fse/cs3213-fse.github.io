@@ -2,8 +2,6 @@
 
 ![ITS](../icons/its.svg)
 
-
-
 The high-level idea of the Intelligent Tutoring System is to introduce an automated technique to provide
 feedback and grading suggestions for programming assignments. As shown in above figure, for a given
 programming assignment, the tutor would provide a reference solution and some test cases, while the
@@ -18,16 +16,3 @@ their provided functionalities. Each project has assigned estimated difficulty l
 in the categories: coding (i.e., programming intensity), theoretical complexity (i.e., need for background
 study), amount of research involved (i.e., be innovative and create something new), and the involvement
 of HCI (Human-Computer Interaction) aspects.
-
-
-## Workflow
-
-![ITS-workflow](../icons/its-workflow.svg)
-
-## Project List
-
-- **Parser**
-- **Interpreter**
-- **Alignment**
-- **Repair**
-- **Feedback**
