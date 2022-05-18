@@ -71,7 +71,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#project-list" class="md-skip">
+        <a href="#topic-1-parsing" class="md-skip">
           Skip to content
         </a>
       
@@ -313,12 +313,14 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
       
       
       
@@ -363,6 +365,85 @@
 
             
           
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Topics
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="topics.html" class="md-nav__link md-nav__link--active">
+        Topics
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#topic-1-parsing" class="md-nav__link">
+    Topic 1 - Parsing
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#topic-2-aligning-matching-of-programs" class="md-nav__link">
+    Topic 2 – Aligning / Matching of Programs
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#topic-3-error-localization-program-interpretation" class="md-nav__link">
+    Topic 3 – Error Localization / Program Interpretation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#topic-4-transforming-repairing-programs" class="md-nav__link">
+    Topic 4 – Transforming / Repairing Programs
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#topic-5-feedback-generation" class="md-nav__link">
+    Topic 5 – Feedback Generation
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -394,8 +475,36 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#project-list" class="md-nav__link">
-    Project List
+  <a href="#topic-1-parsing" class="md-nav__link">
+    Topic 1 - Parsing
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#topic-2-aligning-matching-of-programs" class="md-nav__link">
+    Topic 2 – Aligning / Matching of Programs
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#topic-3-error-localization-program-interpretation" class="md-nav__link">
+    Topic 3 – Error Localization / Program Interpretation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#topic-4-transforming-repairing-programs" class="md-nav__link">
+    Topic 4 – Transforming / Repairing Programs
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#topic-5-feedback-generation" class="md-nav__link">
+    Topic 5 – Feedback Generation
   </a>
   
 </li>
@@ -416,15 +525,46 @@
 
   <h1>Topics</h1>
 
-<p>TODO</p>
-<h2 id="project-list">Project List</h2>
-<ul>
-<li><strong>Parser</strong></li>
-<li><strong>Interpreter</strong></li>
-<li><strong>Alignment</strong></li>
-<li><strong>Repair</strong></li>
-<li><strong>Feedback</strong></li>
-</ul>
+<p>Developing such an Intelligent Tutoring System (ITS) includes many conceptual and technical challenges. We summarized some of them into projects, from which the students in CS3213 need to choose one as a group project. Please find below the project summaries as proposed for the students in CS3213 (NUS AY 2021/2022). We group projects by their provided functionalities. Each project has assigned estimated difficulty levels (Low, Medium, High) in the categories: coding (i.e., programming intensity), theoretical complexity (i.e., need for background study), amount of research involved (i.e., be innovative and create something new), and the involvement of HCI (Human-Computer Interaction) aspects.</p>
+<p><em>More details can be found in our <a href="../assignments/Assignment_0.pdf">Assignment 0</a>.</em></p>
+<h2 id="topic-1-parsing">Topic 1 - Parsing</h2>
+<p><strong>Project 1.1</strong> <em>C Parser</em>:
+Develop a parser to transform C programs into a (provided) common data structure based on the control-flow graph (CFG). Additionally, provide a concretizer, which back-transforms the program in the internal common data structure to a C source file.<br>
+&#8594; [Coding: High, Theory: Low, Research: -, HCI: -]</p>
+<p><strong>Project 1.2</strong> <em>Python Parser</em>:
+Same as 1.1 for Python.<br>
+&#8594; [Coding: High, Theory: Low, Research: -, HCI: -]</p>
+<h2 id="topic-2-aligning-matching-of-programs">Topic 2 – Aligning / Matching of Programs</h2>
+<p><strong>Project 2.1</strong> <em>CFG-Based Alignment</em>:
+Develop an automated alignment of the reference program and the submitted program based on the basic blocks of the programs’ control-flow graph (CFG) representation. This also includes the development of an automated mapping for the variables between the reference program and the submitted program.<br>
+&#8594; [Coding: Medium, Theory: Medium, Research: Low, HCI: -]</p>
+<h2 id="topic-3-error-localization-program-interpretation">Topic 3 – Error Localization / Program Interpretation</h2>
+<p><strong>Project 3.1</strong> <em>C Interpreter</em>: 
+Develop an interpreter that allows to execute a C program with regard to the basic blocks in its CFG. Further, use the provided test cases to identify the root cause of the problem with regard to the basic blocks in the CFG. Implement an error localization that compares the execution traces of a reference program and the submitted program.<br>
+&#8594; [Coding: High, Theory: Medium, Research: -, HCI: -]</p>
+<p><strong>Project 3.2</strong> <em>Python Interpreter</em>:
+same as 3.1 for Python<br>
+&#8594; [Coding: High, Theory: Medium, Research: -, HCI: -]</p>
+<p><strong>Project 3.3</strong> <em>Error Localizer</em>:
+Conduct a literature study on error localization. Develop at least two error localization algorithms from different domains (e.g., statistical fault localization and analysis-based fault localization) for the provided framework and evaluate their efficacy. <br>
+&#8594; [Coding: Medium, Theory: High, Research: Low, HCI: -]</p>
+<h2 id="topic-4-transforming-repairing-programs">Topic 4 – Transforming / Repairing Programs</h2>
+<p><strong>Project 4.1</strong> <em>Refactoring-based Repair</em>:
+Develop a repair workflow that first generates semantic-preserving refactorings of a reference program so that it increases the chances of a structural alignment with a submitted program (see Project 2.1). Afterwards, it uses a matching refactoring to repair the submitted program by mutating program expressions. Strive for a minimal repair which satisfies the failing test case(s).<br>
+&#8594; [Coding: Medium, Theory: Medium, Research: Medium, HCI: -]</p>
+<p><strong>Project 4.2</strong> <em>Optimization-based Repair</em>:
+Develop a repair algorithm that (1) generates local repairs at each basic block by matching the submission and the reference solution, and (2) determines the complete repair (i.e., a subset of local repairs) by using some optimization strategy, which minimizes the overall repair cost.<br>
+&#8594; [Coding: Medium-High, Theory: High, Research: Low, HCI: -]</p>
+<p><strong>Project 4.3</strong> <em>Synthesis-based Repair</em>:
+Develop a repair algorithm that searches for a repair by synthesizing program expressions. The synthesis will be driven by the available components at the specific source location. It requires a specification inference, which results in a repair constraint.<br>
+&#8594; [Coding: Medium, Theory: High, Research: Medium, HCI: -]</p>
+<h2 id="topic-5-feedback-generation">Topic 5 – Feedback Generation</h2>
+<p><strong>Project 5.1</strong> <em>Automated Feedback</em>:
+Develop a feedback mechanism to summarize all obtained results in an appropriate and comprehensible manner for the user. For example, show root causes of the problems and provide explanation by annotating the code.<br>
+&#8594; [Coding: Low, Theory: Medium, Research: Medium, HCI: High]</p>
+<p><strong>Project 5.2</strong> <em>Automated Grading</em>:
+Develop a automated grading mechanism, which is beyond simple output of passing and failing test cases, e.g., it should take into account the necessary effort for fixing the submitted program.<br>
+&#8594; [Coding: Low, Theory: High, Research: High, HCI: Low]</p>
 
               
             </article>
@@ -434,6 +574,26 @@
       </main>
       
         <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="workflow.html" class="md-footer__link md-footer__link--prev" aria-label="Previous: Workflow" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Workflow
+            </div>
+          </div>
+        </a>
+      
+      
+    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
