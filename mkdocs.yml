@@ -13,7 +13,7 @@ nav:
   - Project:
     - Overview: 'project/intro.md'
     - Workflow: 'project/workflow.md'
-    #- Topics: 'project/topics.md'
+    - Topics: 'project/topics.md'
     #- Readings: 'project/readings.md'
     #- Examples: 'project/examples.md'
     #- Postman: 'project/readings.md'
