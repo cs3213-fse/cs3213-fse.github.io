@@ -70,6 +70,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#overview" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -359,9 +364,94 @@
       
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Workflow
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="workflow.html" class="md-nav__link md-nav__link--active">
         Workflow
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    Overview
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-1-parser" class="md-nav__link">
+    Step 1: Parser
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-2-syntactic-alignment" class="md-nav__link">
+    Step 2: Syntactic Alignment
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-3-error-localizer" class="md-nav__link">
+    Step 3: Error Localizer
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-4-interpreter" class="md-nav__link">
+    Step 4: Interpreter
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-5-repair" class="md-nav__link">
+    Step 5: Repair
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-6-feedback" class="md-nav__link">
+    Step 6: Feedback
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-7-conretization" class="md-nav__link">
+    Step 7: Conretization
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-8-auto-grading" class="md-nav__link">
+    Step 8: Auto-Grading
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -392,6 +482,77 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    Overview
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-1-parser" class="md-nav__link">
+    Step 1: Parser
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-2-syntactic-alignment" class="md-nav__link">
+    Step 2: Syntactic Alignment
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-3-error-localizer" class="md-nav__link">
+    Step 3: Error Localizer
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-4-interpreter" class="md-nav__link">
+    Step 4: Interpreter
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-5-repair" class="md-nav__link">
+    Step 5: Repair
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-6-feedback" class="md-nav__link">
+    Step 6: Feedback
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-7-conretization" class="md-nav__link">
+    Step 7: Conretization
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-8-auto-grading" class="md-nav__link">
+    Step 8: Auto-Grading
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -408,7 +569,28 @@
 
 <!-- ## Workflow -->
 
-<p><img alt="ITS-workflow" src="../icons/its-workflow.svg" /></p>
+<p>The following steps show the intended workflow through the Intelligent Tutoring System (ITS). Note that there are points of variation (static and dynamic) that depend, e.g., on the programming language of the programming assignments and the intended repair strategies. Many of the current components can be implemented in many different ways.</p>
+<h2 id="overview">Overview</h2>
+<p><img alt="ITS-workflow" src="../icons/workflow/0_overview.svg" /></p>
+<p>The Intelligent Tutoring System (ITS) uses the notion of a pipes-and-filter style to process the submitted program and, finally, to produce feedback for the students and a grading report for the tutor.</p>
+<p>All components provide corresponding interfaces to the extent that most components can be implemented independently from each other.</p>
+<p>This architecture also allows us to deploy specific system components as separate services. In this regard, the design borrows concepts from the service-oriented style. For example, we provide students with access to a Parser service that allows them to easily generate the internal CFG-based Program representation to create test cases for their projects.</p>
+<h2 id="step-1-parser">Step 1: Parser</h2>
+<p><img alt="ITS-workflow" src="../icons/workflow/1_parser.svg" /></p>
+<h2 id="step-2-syntactic-alignment">Step 2: Syntactic Alignment</h2>
+<p><img alt="ITS-workflow" src="../icons/workflow/2_alignment.svg" /></p>
+<h2 id="step-3-error-localizer">Step 3: Error Localizer</h2>
+<p><img alt="ITS-workflow" src="../icons/workflow/3_errorlocalizer.svg" /></p>
+<h2 id="step-4-interpreter">Step 4: Interpreter</h2>
+<p><img alt="ITS-workflow" src="../icons/workflow/4_interpreter.svg" /></p>
+<h2 id="step-5-repair">Step 5: Repair</h2>
+<p><img alt="ITS-workflow" src="../icons/workflow/4_repair.svg" /></p>
+<h2 id="step-6-feedback">Step 6: Feedback</h2>
+<p><img alt="ITS-workflow" src="../icons/workflow/6_feedback.svg" /></p>
+<h2 id="step-7-conretization">Step 7: Conretization</h2>
+<p><img alt="ITS-workflow" src="../icons/workflow/7_conretization.svg" /></p>
+<h2 id="step-8-auto-grading">Step 8: Auto-Grading</h2>
+<p><img alt="ITS-workflow" src="../icons/workflow/8_grading.svg" /></p>
 
               
             </article>
