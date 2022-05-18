@@ -31,7 +31,7 @@ theme:
 site_name: CS3213 Foundations of Software Engineering
 # repo_url: https://github.com/nus-cs1010/1819-s1
 site_url: https://cs3213-fse.github.io/cs3213-fse
-copyright: Copyright by Department of Computer Science, National University of Singapore 2022
+copyright: Copyright by Department of Computer Science, National University of Singapore, 2022.
 # remote_branch: gh-pages
 use_directory_urls: false
 markdown_extensions:
