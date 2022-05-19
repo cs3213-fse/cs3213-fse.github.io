@@ -30,7 +30,7 @@ This architecture also allows us to deploy specific system components as separat
 ## Step 6: Feedback
 ![ITS-workflow](../icons/workflow/6_feedback.svg)
 
-## Step 7: Conretization
+## Step 7: Concretization
 ![ITS-workflow](../icons/workflow/7_conretization.svg)
 
 ## Step 8: Auto-Grading
